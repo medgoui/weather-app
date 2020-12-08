@@ -1,0 +1,47 @@
+.bgcontainer {
+    height: 100vh;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.navtext {
+    color: white;
+    font-family: 'Texturina', serif;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.search {
+    margin: 8% auto;
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+
+button {
+    width: 45px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: transparent;
+    text-align: center;
+    color: white;
+    margin-left: 10px;
+    transition: 0.2s all ease-in-out;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+button:focus {
+    outline: none;
+}
+
+.carte {
+    width: 250px;
+    background-color: #eee;
+    box-shadow: 5px 5px #ccc;
+    border-radius: 10px;
+}
